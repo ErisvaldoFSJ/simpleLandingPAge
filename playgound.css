@@ -1,0 +1,87 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	background: #BAF2D8;
+	margin: 0;
+}
+
+h2{
+	font-weight: lighter;
+}
+
+a{
+	font-size: 40px;
+	text-decoration: none;
+	color: #071013;
+}
+a:hover{
+	text-decoration: none;
+	color: #B7999C;
+}
+#baner{
+	margin: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 2px 2px rgb(230,230,230);
+	background-image: url("./images/1.jpg");
+	background-size: cover;
+	color: white;
+}
+#baner h1{
+	color: white;
+	font-size: 50px;
+}
+#baner p{
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+#footer{
+	background-color: black;
+	color: white;
+	padding: 50px;
+	text-align: center;
+}
+
+.features{
+	text-align: center;
+	padding: 10px;
+}
+.p{
+	text-align: justify;
+}
+.link-logos{
+	color: #BAF2D8;
+}
+.email-form{
+	padding: 10px;
+	font-size: 5rem;
+}
+.imput-email{
+	padding: 20px;
+	margin: 10px;
+}
+.textarea-email{
+	padding: 20px;
+	margin: 10px;
+}
+.button-form{
+	opacity: 0.8;
+	margin-right: 10%;
+	margin: 10px;
+	width: 100%;
+}
+.nao_valido{
+	display: none;
+}
+.form-f1{
+	border-top: 2px solid white;
+	margin-top: 50px;
+}
+@media(min-width:124px){
+	#footer{
+		margin-top:50px;
+	}
+}
